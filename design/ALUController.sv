@@ -15,6 +15,7 @@ module ALUController (
     || ((ALUOp == 2'b10) && (Funct3 == 3'b101) && (Funct7 == 7'b0000000))  // R\I->>
     || ((ALUOp == 2'b10) && (Funct3 == 3'b101) && (Funct7 == 7'b0100000))  // R\I->>>
     || ((ALUOp == 2'b10) && (Funct3 == 3'b000) && (Funct7 == 7'b0100000))  // SUB	
+    || ((ALUOp == 2'b10) && (Funct3 == 3'b110) && (Funct7 == 7'b0000000))  // OR
     ;
 
   assign Operation[1] = 
@@ -31,6 +32,7 @@ module ALUController (
     || ((ALUOp == 2'b10) && (Funct3 == 3'b001))                           // R\I-<<
     || ((ALUOp == 2'b10) && (Funct3 == 3'b010))                           // R\I-< 
     || ((ALUOp == 2'b10 || ALUOp == 2'b00) && (Funct3 == 3'b001) && (Funct7 == 7'b0000000))  // SLL ou SLLI
+    || ((ALUOp == 2'b10) && (Funct3 == 3'b100) && (Funct7 == 7'b0000000)) //XOR
     ; 
 
   assign Operation[3] = 

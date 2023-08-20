@@ -17,10 +17,14 @@ module alu#(
             case(Operation)
             4'b0000: // AND
                     ALUResult = SrcA & SrcB;
-            4'b0010: // ADD
+            4'b0001: //OR
+		    ALUResult = SrcA ^ SrcB;
+            4'b0010:        // ADD
                     ALUResult = SrcA + SrcB;
             4'b0011: //SUB
                     ALUResult = SrcA - SrcB;
+            4'b0100: //XOR
+                    ALUResult = SrcA ^ SrcB;
             4'b0110: //SLL e SLLI
                     ALUResult = SrcA << SrcB;
             4'b1000: // Equal
