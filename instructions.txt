@@ -1,2 +1,2 @@
-lw x4,2(x1)
-slt x8,x4,x16
+lw x4,0(x1)
+srli x8,x4,2
