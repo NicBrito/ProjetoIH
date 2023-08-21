@@ -1,2 +1,2 @@
 lw x4,0(x1)
-srli x8,x4,2
+srai x8,x4,2
