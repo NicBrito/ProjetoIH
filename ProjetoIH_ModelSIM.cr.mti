@@ -1,1 +1,151 @@
+C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RISC_V.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RISC_V.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module riscv
 
+Top level modules:
+	riscv
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux4.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Memoria32Data.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Memoria32Data.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memoria32Data
+
+Top level modules:
+	Memoria32Data
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/alu.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/verif/tb_top.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/verif/tb_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/datamemory.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/datamemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datamemory
+
+Top level modules:
+	datamemory
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/instructionmemory.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/instructionmemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instructionmemory
+
+Top level modules:
+	instructionmemory
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegPack.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegPack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package Pipe_Buf_Reg_PKG
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ALUController.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ALUController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALUController
+
+Top level modules:
+	ALUController
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegFile.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegFile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/BranchUnit.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/BranchUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module BranchUnit
+
+Top level modules:
+	BranchUnit
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Datapath.sv {2 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+** Warning: C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Datapath.sv(3): (vlog-13233) Design unit "Datapath_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package Datapath_sv_unit
+-- Importing package Pipe_Buf_Reg_PKG
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Memoria32.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Memoria32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Memoria32
+
+Top level modules:
+	Memoria32
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/adder.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ramOnChipData.v {1 {vlog -work work -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ramOnChipData.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ramOnChipData
+
+Top level modules:
+	ramOnChipData
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/HazardDetection.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/HazardDetection.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HazardDetection
+
+Top level modules:
+	HazardDetection
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ramOnChip32.v {1 {vlog -work work -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ramOnChip32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ramOnChip32
+
+Top level modules:
+	ramOnChip32
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/flopr.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/flopr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module flopr
+
+Top level modules:
+	flopr
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ForwardingUnit.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/ForwardingUnit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ForwardingUnit
+
+Top level modules:
+	ForwardingUnit
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Controller.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux2.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}}
