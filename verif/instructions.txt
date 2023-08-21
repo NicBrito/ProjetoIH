@@ -1,4 +1,1 @@
-addi x0,x0,0
-addi x1,x0,8
-addi x2,x0,4
-sll x3,x2,x1
+lui x6,3
