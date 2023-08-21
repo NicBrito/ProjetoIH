@@ -13,13 +13,6 @@ module imm_Gen (
 
       7'b0010011: begin/*ADDI-SLTI*/ /*SLLI-SRLI-SRAI*/
       Imm_out = {inst_code[31] ? 20'hFFFFF : 20'b0, inst_code[31:20]};
-        if(inst_code[14:12] == 3'b000 || inst_code[14:12] == 3'b010) begin
-
-          Imm_out = {inst_code[31] ? 20'hFFFFF : 20'b0, inst_code[31:20]};
-
-        end else if(inst_code[14:12] == 3'b001 || inst_code[14:12] == 3'b101)begin  
-              Imm_out = {27'b0 ,inst_code[24:20]};
-            end
       end
       7'b1100011:  /*B-type*/
       Imm_out = {

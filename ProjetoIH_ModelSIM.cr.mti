@@ -47,6 +47,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	instructionmemory
 
+} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/imm_Gen.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/imm_Gen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module imm_Gen
+
+Top level modules:
+	imm_Gen
+
 } {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegPack.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/RegPack.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling package Pipe_Buf_Reg_PKG
@@ -133,13 +140,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	ForwardingUnit
-
-} {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Controller.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/Controller.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Controller
-
-Top level modules:
-	Controller
 
 } {} {}} C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux2.sv {1 {vlog -work work -sv -stats=none C:/Users/alexa/projects/cin/infrahard/ProjetoIH/design/mux2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
