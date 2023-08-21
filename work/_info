@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/alexa/projects/cin/infrahard/ProjetoIH
 vadder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1692564681
+Z2 !s110 1692577549
 !i10b 1
 !s100 jao`2Y40ZU?TJH6m`C;g82
 IbZ^Q`RDASn92B;AAb@;8@3
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1692564681.000000
+Z6 !s108 1692577548.000000
 Z7 !s107 verif/tb_top.sv|design/RISC_V.sv|design/Datapath.sv|design/instructionmemory.sv|design/datamemory.sv|design/mux4.sv|design/mux2.sv|design/imm_Gen.sv|design/HazardDetection.sv|design/ForwardingUnit.sv|design/flopr.sv|design/Controller.sv|design/BranchUnit.sv|design/ALUController.sv|design/alu.sv|design/RegFile.sv|design/RegPack.sv|design/Memoria32Data.sv|design/Memoria32.sv|design/ramOnChipData.v|design/ramOnChip32.v|design/adder.sv|
 Z8 !s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
@@ -35,13 +35,13 @@ valu
 R1
 R2
 !i10b 1
-!s100 nOOEN;QJVZLXod2HOgc2S3
-IRP7gUQSbd_Xe85m:d:agR0
+!s100 En3?bg3gob5l;[k:Gfa>T0
+ID9z2>ce]BPzJ:6n6i=Z=k1
 R3
 !s105 alu_sv_unit
 S1
 R0
-w1692564249
+w1692572642
 8design/alu.sv
 Fdesign/alu.sv
 L0 3
@@ -58,13 +58,13 @@ vALUController
 R1
 R2
 !i10b 1
-!s100 lEdBAjQgS4jkob:R9;8Ko1
-IB_[eaF:2K;iNjCQ=ifGBi2
+!s100 @S1K31F;nnb;:39NP2UOO3
+IFPd3B5>5]a[]_PU]HIena0
 R3
 !s105 ALUController_sv_unit
 S1
 R0
-w1692560566
+w1692573350
 8design/ALUController.sv
 Fdesign/ALUController.sv
 L0 3
@@ -106,13 +106,13 @@ vController
 R1
 R2
 !i10b 1
-!s100 ?`=af9Rl95icK?3NI8haQ3
-IYR2U`z4>Cz:JzbNJgz<L]3
+!s100 7R5;=XEkFX<3XQXDM0LbJ3
+IA1;^P14ccX?8WlO;z]W<11
 R3
 !s105 Controller_sv_unit
 S1
 R0
-R4
+w1692572422
 8design/Controller.sv
 Fdesign/Controller.sv
 L0 3
@@ -273,13 +273,13 @@ vimm_Gen
 R1
 R2
 !i10b 1
-!s100 i=P;WK=F5ZBA@zJRFAd>d3
-I0PH_8LLDT05Hf`9IVcNb@3
+!s100 `HnL=^C;MfV6<_nQz44F60
+I?>bagjcV:oSYfCQg8EGGg3
 R3
 !s105 imm_Gen_sv_unit
 S1
 R0
-R4
+w1692573085
 8design/imm_Gen.sv
 Fdesign/imm_Gen.sv
 L0 3
