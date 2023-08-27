@@ -1,2 +1,5 @@
-lw x4,0(x1)
-srai x8,x4,2
+addi x8,x0,400
+sw x8,0(x0)
+lb x9,0(x0)
+lh x10,0(x0)
+lbu x11,0(x1)
