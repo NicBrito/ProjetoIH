@@ -52,6 +52,10 @@ module datamemory #(
           Wr <= 4'b1111;
           Datain <= wd;
         end
+        3'b000: begin //SB
+          Wr <= 4'b1111;
+          Datain <= (wd[7] == 1) ? {24'b11111111, wd[7:0]} : {24'b0, wd[7:0]};
+        end
         default: begin
           Wr <= 4'b1111;
           Datain <= wd;
