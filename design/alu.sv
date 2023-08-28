@@ -38,7 +38,11 @@ module alu#(
             4'b1001: // LUI
                     ALUResult = SrcB;
             4'b1010: //BNE
-                    ALUResult = (SrcA != SrcB) ? 1 : 0;  
+                    ALUResult = (SrcA != SrcB) ? 1 : 0; 
+            4'b1011: // BLT
+                    ALUResult = (SrcA < SrcB) ? 1 : 0;
+            4'b1100: // BGE
+                    ALUResult = (SrcA >= SrcB) ? 1 : 0; 
             default:
                     ALUResult = 0;
             endcase
