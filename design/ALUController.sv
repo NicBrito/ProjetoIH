@@ -48,7 +48,7 @@ module ALUController (
         || ((ALUOp == 2'b01) && (Funct3 == 3'b101)) //BGE
     	; 
 
-  assign Operation[3] = ((ALUOp == 2'b01) && (Funct3 == 3'b000)) || ((ALUOp == 2'b10) && (Funct3 == 3'b010)) || ((ALUOp == 2'b11))||
+  assign Operation[3] = ((ALUOp == 2'b01) && (Funct3 == 3'b000)) || ((ALUOp == 2'b10) && (Funct3 == 3'b010)) || ((ALUOp == 2'b11))
         || ((ALUOp == 2'b10) && (Funct3 == 3'b010) && (Funct7 == 7'b0000000)) //SLT 
 	||  ((ALUOp == 2'b01) && (Funct3 == 3'b100)) //BLT
         || ((ALUOp == 2'b01) && (Funct3 == 3'b101)) //BGE
