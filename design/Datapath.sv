@@ -15,7 +15,6 @@ module Datapath #(
     RegWrite,
     MemtoReg,  // Register file writing enable   // Memory or ALU MUX
     ALUsrc,
-    half,
     MemWrite,  // Register file or Immediate MUX // Memroy Writing Enable
     MemRead,  // Memroy Reading Enable
     Branch,  // Branch Enable
@@ -140,7 +139,6 @@ module Datapath #(
       B.RegWrite <= 0;
       B.MemRead <= 0;
       B.MemWrite <= 0;
-      B.half <= 0;
       B.ALUOp <= 0;
       B.Branch <= 0;
       B.Curr_Pc <= 0;
@@ -160,7 +158,6 @@ module Datapath #(
       B.MemRead <= MemRead;
       B.MemWrite <= MemWrite;
       B.ALUOp <= ALUOp;
-      B.half<=half;
       B.Branch <= Branch;
       B.Curr_Pc <= A.Curr_Pc;
       B.RD_One <= Reg1;
@@ -172,7 +169,6 @@ module Datapath #(
       B.func3 <= A.Curr_Instr[14:12];
       B.func7 <= A.Curr_Instr[31:25];
       B.Curr_Instr <= A.Curr_Instr;  //debug tmp
-      $display("%d\n", halt);
     end
   end
 
@@ -223,7 +219,6 @@ module Datapath #(
   );
   BranchUnit #(9) brunit (
       B.Curr_Pc,
-      B.half,
       B.ImmG,
       B.Branch,
       ALUResult,
