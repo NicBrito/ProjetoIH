@@ -10,538 +10,560 @@ cModel Technology
 Z0 dC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard
 vadder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1692631242
+!s110 1693350828
 !i10b 1
 !s100 jao`2Y40ZU?TJH6m`C;g82
-IbZ^Q`RDASn92B;AAb@;8@3
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+IZaWIh4SVkOT5eYDe_`TG01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 !s105 adder_sv_unit
 S1
 R0
-Z4 w1692561849
-8design/adder.sv
-Fdesign/adder.sv
+Z3 w1692561849
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/adder.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/adder.sv
 L0 3
-Z5 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1692631242.000000
-Z7 !s107 verif/tb_top.sv|design/RISC_V.sv|design/Datapath.sv|design/instructionmemory.sv|design/datamemory.sv|design/mux4.sv|design/mux2.sv|design/imm_Gen.sv|design/HazardDetection.sv|design/ForwardingUnit.sv|design/flopr.sv|design/Controller.sv|design/BranchUnit.sv|design/ALUController.sv|design/alu.sv|design/RegFile.sv|design/RegPack.sv|design/Memoria32Data.sv|design/Memoria32.sv|design/ramOnChipData.v|design/ramOnChip32.v|design/adder.sv|
-Z8 !s90 -reportprogress|300|-f|compile_verilog|
+Z5 !s108 1693350828.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/adder.sv|
 !i113 1
-Z9 tCvgOpt 0
+Z6 o-work work -sv
+Z7 tCvgOpt 0
 valu
 R1
-R2
+Z8 !s110 1693350829
 !i10b 1
-!s100 e^IWT4=8`;Oz2lzUk^]fV1
-ILJ;^W_jAZ]^@zzXFPlPcG0
-R3
+!s100 VmJ9QRaeoSCHN:GY60W`M3
+I4[7T6E8O6g;EGW[4NDD:A0
+R2
 !s105 alu_sv_unit
 S1
 R0
-w1692629494
-8design/alu.sv
-Fdesign/alu.sv
+w1693254471
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/alu.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/alu.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R5
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/alu.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vALUController
 R1
-R2
+R8
 !i10b 1
-!s100 C8`MJ]eK[ab5f:Q[I4J6Q2
-I[oG:a?;[LkOgmz`=:ADU13
-R3
+!s100 _jZ2=[o0TF1?:e<nBi?EC0
+I3T4ORK64ml<4]19<R9>cn3
+R2
 !s105 ALUController_sv_unit
 S1
 R0
-w1692629984
-8design/ALUController.sv
-Fdesign/ALUController.sv
+w1693256162
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ALUController.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ALUController.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+Z9 !s108 1693350829.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ALUController.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ALUController.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@a@l@u@controller
 vBranchUnit
 R1
-R2
+!s110 1693345810
 !i10b 1
 !s100 ZgMmg6:WVT;CC8W;E^3jD1
 I6]OkBaCVboU=@fmhkC2He3
-R3
+R2
 !s105 BranchUnit_sv_unit
 S1
 R0
-R4
+R3
 8design/BranchUnit.sv
 Fdesign/BranchUnit.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
-R6
-R7
-R8
+!s108 1693345810.000000
+!s107 verif/tb_top.sv|design/RISC_V.sv|design/Datapath.sv|design/instructionmemory.sv|design/datamemory.sv|design/mux4.sv|design/mux2.sv|design/imm_Gen.sv|design/HazardDetection.sv|design/ForwardingUnit.sv|design/flopr.sv|design/Controller.sv|design/BranchUnit.sv|design/ALUController.sv|design/alu.sv|design/RegFile.sv|design/RegPack.sv|design/Memoria32Data.sv|design/Memoria32.sv|design/ramOnChipData.v|design/ramOnChip32.v|design/adder.sv|
+!s90 -reportprogress|300|-f|compile_verilog|
 !i113 1
-R9
+R7
 n@branch@unit
 vController
 R1
-R2
+R8
 !i10b 1
-!s100 `S7hO34o=6Y4Mj]Yz?7lM1
-IcXEeW1[h6g964AZB7g4JA0
-R3
+!s100 hT<?96P7mPMK3CaQ0Re2C0
+IeAz;TB@2ZCElFX_6=f>FK0
+R2
 !s105 Controller_sv_unit
 S1
 R0
-w1692627591
-8design/Controller.sv
-Fdesign/Controller.sv
+w1693350552
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Controller.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Controller.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R9
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Controller.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@controller
 vdatamemory
 R1
-R2
+Z10 !s110 1693350830
 !i10b 1
-!s100 P>X5J]h>7d]FL:oDI9KcV1
-I20S<31c=mii8B_g22=Gb_2
-R3
+!s100 P9hYB0o:J^z6RG2YNG>7K0
+IS7iL>bHFj2XcJK@4fBQaO3
+R2
 !s105 datamemory_sv_unit
 S1
 R0
-R4
-8design/datamemory.sv
-Fdesign/datamemory.sv
+w1693107730
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/datamemory.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/datamemory.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+Z11 !s108 1693350830.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/datamemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/datamemory.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vDatapath
 R1
-Z10 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 gaZjk=N1AHfA6?alMU?m>0
-DXx4 work 16 Datapath_sv_unit 0 22 @FLD??djN0oMmMWfLcB[@3
-R3
+Z12 DXx4 work 16 Pipe_Buf_Reg_PKG 0 22 gaZjk=N1AHfA6?alMU?m>0
+DXx4 work 16 Datapath_sv_unit 0 22 G=ZVXFdGJk[Pf=QONUoNY3
+R2
 r1
 !s85 0
 31
 !i10b 1
 !s100 4z?@1CCgjkjF4VR=hlzn^2
-IUY3@hF9]jPP>ThHdQ__;j3
+IF8kk0Tg8JaX:nYP^5oP9l1
 !s105 Datapath_sv_unit
 S1
 R0
-R4
-Z11 8design/Datapath.sv
-Z12 Fdesign/Datapath.sv
+R3
+Z13 8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Datapath.sv
+Z14 FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Datapath.sv
 L0 5
-R5
+R4
+R11
+Z15 !s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Datapath.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Datapath.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@datapath
 XDatapath_sv_unit
 R1
-R10
-V@FLD??djN0oMmMWfLcB[@3
+R12
+VG=ZVXFdGJk[Pf=QONUoNY3
 r1
 !s85 0
 31
 !i10b 1
-!s100 3[BfLoG5<e=Pmm=UYdbB42
-I@FLD??djN0oMmMWfLcB[@3
+!s100 CPJN@CQd:UTaBJLdeNeC=0
+IG=ZVXFdGJk[Pf=QONUoNY3
 !i103 1
 S1
 R0
+R3
+R13
+R14
+L0 3
 R4
 R11
-R12
-L0 3
-R5
+R15
+R16
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@datapath_sv_unit
 vflopr
 R1
-R2
+R10
 !i10b 1
 !s100 K9zcn`CIkX<8ciGn1i:_K2
-IiMW[QlMFMi7B@9UJd0z^10
-R3
+IRKH<6lK[^L<ED2n7mVdlz3
+R2
 !s105 flopr_sv_unit
 S1
 R0
-R4
-8design/flopr.sv
-Fdesign/flopr.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/flopr.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/flopr.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R11
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/flopr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/flopr.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vForwardingUnit
 R1
-R2
+Z17 !s110 1693350831
 !i10b 1
 !s100 7;[Y2emO[>6YmLAnc:Km:2
-Ig<iOU_1WEFnL8KhGGTR;31
-R3
+I5SN0Kg8Ub]X`zgKm0jl9>2
+R2
 !s105 ForwardingUnit_sv_unit
 S1
 R0
-R4
-8design/ForwardingUnit.sv
-Fdesign/ForwardingUnit.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ForwardingUnit.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ForwardingUnit.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+Z18 !s108 1693350831.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ForwardingUnit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ForwardingUnit.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@forwarding@unit
 vHazardDetection
 R1
-R2
+R17
 !i10b 1
 !s100 DV^VL=4Bbzeb]U6eNgVE83
-Ihh2n1RWN31d>`iEjEZiV73
-R3
+I;eIdTdb9g24iSfB`R2m?A0
+R2
 !s105 HazardDetection_sv_unit
 S1
 R0
-R4
-8design/HazardDetection.sv
-Fdesign/HazardDetection.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/HazardDetection.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/HazardDetection.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R18
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/HazardDetection.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/HazardDetection.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@hazard@detection
 vimm_Gen
 R1
-R2
+R17
 !i10b 1
 !s100 mZ9W2o]7NhS6=?4=HP3JI2
-IlkliVdFXA2DdD6^mX9Emj0
-R3
+IMbIWf9gm@JT674>[4oIX?3
+R2
 !s105 imm_Gen_sv_unit
 S1
 R0
 w1692581460
-8design/imm_Gen.sv
-Fdesign/imm_Gen.sv
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/imm_Gen.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/imm_Gen.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R18
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/imm_Gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/imm_Gen.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 nimm_@gen
 vinstructionmemory
 R1
-R2
+R17
 !i10b 1
 !s100 DAFBVVFHf^flodQQSza181
-I9oWIAkdOiRk3iWBXj2RV12
-R3
+IO3hCR<I3`^3RjK1eGPNYH0
+R2
 !s105 instructionmemory_sv_unit
 S1
 R0
-R4
-8design/instructionmemory.sv
-Fdesign/instructionmemory.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/instructionmemory.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/instructionmemory.sv
 L0 4
-R5
+R4
 r1
 !s85 0
 31
+R18
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/instructionmemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/instructionmemory.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vMemoria32
 R1
-R2
+Z19 !s110 1693350832
 !i10b 1
-!s100 hoGB@Uzz[Ao[H<SPaUCZH2
-IzHjiMmf@L]Y8I2;AaGg3d0
-R3
+!s100 <UB:;NPnM4`9J5U<QiS181
+IChkdCJQ79`>OM<3[V:=?01
+R2
 !s105 Memoria32_sv_unit
 S1
 R0
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32.sv
+Z20 L0 26
 R4
-8design/Memoria32.sv
-Fdesign/Memoria32.sv
-Z13 L0 26
-R5
 r1
 !s85 0
 31
+Z21 !s108 1693350832.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@memoria32
 vMemoria32Data
 R1
-R2
+R19
 !i10b 1
 !s100 ZU=<=_ncFfn80[:J@99oW3
-I@cVT;I8=];Y5JUDZmUZWR1
-R3
+IU5GReY]hk^a=Vi`P66eET2
+R2
 !s105 Memoria32Data_sv_unit
 S1
 R0
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32Data.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32Data.sv
+R20
 R4
-8design/Memoria32Data.sv
-Fdesign/Memoria32Data.sv
-R13
-R5
 r1
 !s85 0
 31
+R21
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32Data.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/Memoria32Data.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@memoria32@data
 vmux2
 R1
-R2
+R19
 !i10b 1
 !s100 :49Wlfe?lUP_SL7cEf;Vz2
-IXEDilZ776<kd0iMhO6g?E3
-R3
+IQl7X_^Iz_E^cAJeV4PPS:0
+R2
 !s105 mux2_sv_unit
 S1
 R0
-R4
-8design/mux2.sv
-Fdesign/mux2.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux2.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux2.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R21
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux2.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vmux4
 R1
-R2
+R19
 !i10b 1
 !s100 T7nNRI5o3o@Uhejf5`z`L1
-IDPQ6oc]df8RonY;g7VO>E0
-R3
+IPKL_0FTe3zD?:;Pe;Y41J2
+R2
 !s105 mux4_sv_unit
 S1
 R0
-R4
-8design/mux4.sv
-Fdesign/mux4.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux4.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux4.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R21
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/mux4.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 XPipe_Buf_Reg_PKG
 R1
-R2
+Z22 !s110 1693350834
 !i10b 1
-!s100 =8h0K76Ybn3O6P2Eej1Le2
-IgaZjk=N1AHfA6?alMU?m>0
-VgaZjk=N1AHfA6?alMU?m>0
+!s100 >oAXQUdE9miS2_Z_`3<Vd1
+Izl5kTbb`Xh2Z97CB0zXL93
+Vzl5kTbb`Xh2Z97CB0zXL93
 S1
 R0
-R4
-8design/RegPack.sv
-Fdesign/RegPack.sv
+w1693348544
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegPack.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegPack.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
+Z23 !s108 1693350834.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegPack.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegPack.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@pipe_@buf_@reg_@p@k@g
 vramOnChip32
-R2
+Z24 !s110 1693350833
 !i10b 1
 !s100 UaK7Z2?CFjC?UDMYYFK;A0
-IMQaIX^8l4XP1Omh:fOQ1E3
-R3
+Il5^:PJXOceT0k`FdUm0510
+R2
 R0
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChip32.v
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChip32.v
+Z25 L0 40
 R4
-8design/ramOnChip32.v
-Fdesign/ramOnChip32.v
-Z14 L0 40
-R5
 r1
 !s85 0
 31
-R6
-R7
-R8
+Z26 !s108 1693350833.000000
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChip32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChip32.v|
 !i113 1
-R9
+Z27 o-work work
+R7
 nram@on@chip32
 vramOnChipData
-R2
+R24
 !i10b 1
 !s100 55mVmei:_T48L0I6WQozS0
-IHPo@KOHA8_cKKe@Hj72NP2
-R3
+IQablE4AW?e>:glUUJZhD51
+R2
 R0
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChipData.v
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChipData.v
+R25
 R4
-8design/ramOnChipData.v
-Fdesign/ramOnChipData.v
-R14
-R5
 r1
 !s85 0
 31
-R6
-R7
-R8
+R26
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChipData.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/ramOnChipData.v|
 !i113 1
-R9
+R27
+R7
 nram@on@chip@data
 vRegFile
 R1
-R2
+R22
 !i10b 1
 !s100 c[LDzi:JjhjBPHd09kf`_3
-I[h=QU9[OKB8F[mlI>OVa73
-R3
+IzQW26N6AQN6mQoFKjLXLC3
+R2
 !s105 RegFile_sv_unit
 S1
 R0
-R4
-8design/RegFile.sv
-Fdesign/RegFile.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegFile.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegFile.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R26
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegFile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RegFile.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 n@reg@file
 vriscv
 R1
-R2
+R22
 !i10b 1
-!s100 ?=Umfo`Xn_Y9ol=55:ozF0
-Ib[<`eMLQA^>0HR2k;iDe:2
-R3
+!s100 glj`[;Vn@bVSa3P6nV=n72
+I9CC>7hCHhCoGUYB@gMi?L0
+R2
 !s105 RISC_V_sv_unit
 S1
 R0
-R4
-8design/RISC_V.sv
-Fdesign/RISC_V.sv
+w1693350305
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RISC_V.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RISC_V.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R23
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RISC_V.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/design/RISC_V.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
 vtb_top
 R1
-R2
+R22
 !i10b 1
 !s100 MXiUS:`n9@@ac0aKggk3z3
-I5LR?M4PVj?SiW9J:=E59T3
-R3
+ILTALHThQ0=LaKX]DBL2on1
+R2
 !s105 tb_top_sv_unit
 S1
 R0
-R4
-8verif/tb_top.sv
-Fverif/tb_top.sv
+R3
+8C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/verif/tb_top.sv
+FC:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/verif/tb_top.sv
 L0 3
-R5
+R4
 r1
 !s85 0
 31
+R23
+!s107 C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/verif/tb_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/klari/OneDrive/Documentos/GitHub/ProjetoInfraHard/verif/tb_top.sv|
+!i113 1
 R6
 R7
-R8
-!i113 1
-R9
