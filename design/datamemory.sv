@@ -38,10 +38,10 @@ module datamemory #(
       case (Funct3)
         3'b010:  //LW
         rd <= Dataout;
-        3'b000: //LH
-        rd <= {16'b0, Dataout[15:0]}; 
-        3'b001: //LB
-        rd <= {24'b0, Dataout[7:0]}; 
+ 	3'b000: //LB
+        rd <= {24'b0, Dataout[7:0]};
+        3'b001: //LH
+        rd <= {16'b0, Dataout[15:0]};  
         3'b100: //LBU
         rd <= {1'b0, Dataout[30:0]};   
         default: rd <= Dataout;
