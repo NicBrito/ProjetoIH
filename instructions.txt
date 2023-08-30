@@ -1,2 +1,2 @@
-slt x8,x16,x0 
-slti x12,x8,300 
+srai x4,x18,2
+srli x0,x12,3
