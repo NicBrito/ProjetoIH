@@ -1,2 +1,2 @@
-addi x8,x0,400
-sb x8,0(x0)
+slt x8,x16,x0 
+slti x12,x8,300 

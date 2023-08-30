@@ -1,2 +1,2 @@
-addi x8,x0,400
-sb x8,0(x0)
+srai x4,x18,2
+srli x0,x12,3
