@@ -27,8 +27,12 @@ module alu#(
                     ALUResult = SrcA ^ SrcB;
             4'b0101: //SRLI
                     ALUResult = SrcA >> SrcB;
-            4'b0111: //SRAI
-                    ALUResult = SrcA >>> (SrcB-1024);
+            $display("srli %d %d %d", ALUResult, SrcA, SrcB);
+            4'b0111: //SRAI 
+            begin
+              ALUResult = SrcA >>> (SrcB-1024);
+              $display("srai %d %d %d", ALUResult, SrcA, SrcB);
+            end
             4'b0110: //SLL e SLLI
                     ALUResult = SrcA << SrcB;
             4'b1110: //SLT e SLTI
@@ -38,7 +42,11 @@ module alu#(
             4'b1001: // LUI
                     ALUResult = SrcB;
             4'b1010: //BNE
-                    ALUResult = (SrcA != SrcB) ? 1 : 0;  
+                    ALUResult = (SrcA != SrcB) ? 1 : 0; 
+            4'b1011: // BLT
+                    ALUResult = (SrcA < SrcB) ? 1 : 0;
+            4'b1100: // BGE
+                    ALUResult = (SrcA >= SrcB) ? 1 : 0; 
             default:
                     ALUResult = 0;
             endcase
